@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-zowie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zowie93/portfolio-zowie.git",
+  "author": "Zowie van Geest <zowie@zowievangeest.nl>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-vue": "^4.4.0",
+    "parcel-bundler": "^1.7.0",
+    "parcel-plugin-eslint": "^1.0.4",
+    "parcel-plugin-vue": "^1.5.0"
+  }
+}
