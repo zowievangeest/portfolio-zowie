@@ -1,9 +1,9 @@
 <template>
   <div class="comingsoon uk-position-center">
-    <div class="uk-vertical-align uk-text-center">
+    <div class="uk-vertical-align uk-text-center uk-text-white">
       <div class="uk-vertical-align-middle">
-        <img class="logo" src="../assets/images/logo-zowie-van-geest.svg" data-uk-svg>
-        <h1 class="title uk-text-uppercase">{{ titel }}</h1>
+        <img class="logo uk-text-white" src="../assets/images/logo-zowie-van-geest.svg" data-uk-svg>
+        <h1 class="title uk-text-uppercase uk-text-white">{{ titel }}</h1>
         <p class="description">{{ description }}</p>
         <vk-button>More info</vk-button><vk-button>Send mail</vk-button>
       </div>
