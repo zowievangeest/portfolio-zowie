@@ -43,5 +43,6 @@ deploy:
   local_dir: dist
   name: "Zowie van Geest"
   email: zowie@zowievangeest.nl
+  fqdn: zowievangeest.nl
   on:
     branch: master
