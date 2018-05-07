@@ -1,5 +1,5 @@
 <template>
-  <div class="comingsoon uk-position-center">
+  <div class="comingsoon uk-position-center uk-margin-medium">
     <div class="uk-vertical-align uk-text-center uk-text-white">
       <div class="uk-vertical-align-middle">
         <img class="logo uk-text-white uk-margin-medium-bottom" src="../assets/images/logo-zowie-van-geest.svg" data-uk-svg>

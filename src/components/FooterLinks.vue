@@ -1,6 +1,6 @@
 <template>
-<div class="footer">
-    <div class="footerLinks uk-position-bottom-center">
+<div class="footer uk-position-bottom-center uk-text-center">
+    <div class="footerLinks">
         <vk-icon-button v-for="footerLink in footerLinks" 
                         :key="footerLink.id" 
                         v-bind:href="footerLink.url" 
@@ -8,7 +8,7 @@
                         v-bind:class="footerLink.className">
         </vk-icon-button>
     </div>
-    <span class="copyiright uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom">&copy; {{ calculateDate() }} {{ copyright }}</span>
+    <p class="copyright uk-margin-remove">&copy; {{ calculateDate() }} {{ copyright }}</p>
 </div>
 </template>
 
@@ -46,5 +46,10 @@ export default {
         border: 1px solid #05adff;
         transition: color .2s, background .2s, border .2s;
     }
+}
+
+.copyright {
+    font-size: 12px;
+    margin-bottom: 10px!important;
 }
 </style>
