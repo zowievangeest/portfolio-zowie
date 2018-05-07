@@ -35,3 +35,14 @@ script:
   - yarn run build
 
 after_script: greenkeeper-lockfile-upload
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist
+  name: "Zowie van Geest"
+  email: zowie@zowievangeest.nl
+  fqdn: zowievangeest.nl
+  on:
+    branch: master
