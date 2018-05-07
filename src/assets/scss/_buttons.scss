@@ -1,0 +1,40 @@
+.btn {
+    display: inline-block;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 10px;
+    letter-spacing: .2em;
+    padding: 15px 30px;
+    margin: 0 15px;
+    min-width: 80px;
+    color: #ffffff; 
+}
+
+.btn-round {
+    border-radius: 100px;
+}
+
+.btn-solid {
+    border: 2px solid #05adff;
+    background: #05adff;
+    color: #ffffff;
+    transition: color .2s, background .2s, border .2s;
+    &:hover {
+        color: #ffffff;
+        background: none;
+        border: 2px solid #05adff;
+        transition: color .2s, background .2s, border .2s;
+    }
+}
+
+.btn-ghost {
+    border: 2px solid #05adff;
+    color: #ffffff;
+    transition: color .2s, background .2s;
+    &:hover {
+        color: #ffffff;
+        background: #05adff;
+    }
+}
+
