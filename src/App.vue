@@ -18,4 +18,5 @@
 @import "./assets/scss/main";
 @import "./assets/scss/colors";
 @import "./assets/scss/glitch";
+@import "./assets/scss/buttons";
 </style>
