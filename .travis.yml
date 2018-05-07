@@ -1,0 +1,30 @@
+language: node_js
+node_js:
+  - 9
+
+sudo: enabled
+dist: trusty
+
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+
+branches:
+  only:
+    - master
+    - develop
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+install:
+  - yarn install
+
+script:
+  - yarn run test
+  - yarn run build
