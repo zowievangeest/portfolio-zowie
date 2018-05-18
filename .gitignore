@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 /tests/e2e/videos/
 /tests/e2e/screenshots/
+yarn.lock
 
 # local env files
 .env.local
