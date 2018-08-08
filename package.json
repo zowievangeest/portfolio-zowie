@@ -16,8 +16,8 @@
     "global": "4.3.2",
     "serve": "7.0.0",
     "register-service-worker": "1.4.1",
-    "serve": "9.1.0",
-    "vue": "2.5.16",
+    "serve": "9.4.0",
+    "vue": "2.5.17",
     "vue-router": "3.0.1",
     "vuex": "3.0.1",
     "vuikit": "0.8.5"
@@ -31,12 +31,12 @@
     "@vue/cli-plugin-pwa": "3.0.0-rc.3",
     "@vue/cli-plugin-eslint": "3.0.0-rc.3",
     "@vue/cli-service": "3.0.0-rc.10",
-    "@vue/test-utils": "1.0.0-beta.20",
+    "@vue/test-utils": "1.0.0-beta.23",
     "chai": "4.1.2",
     "lint-staged": "7.2.0",
     "node-sass": "4.9.2",
-    "sass-loader": "7.0.3",
-    "vue-template-compiler": "2.5.16"
+    "vue-template-compiler": "2.5.17"
+    "sass-loader": "7.1.0",
   },
   "babel": {
     "presets": [
